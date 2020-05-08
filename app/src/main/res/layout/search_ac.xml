@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="nicehome2018.nicehome.SearchAc"
+    android:orientation="vertical"
+    android:id="@+id/main_linerLayout_Search">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/search_properties_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/search_properties"
+        app:titleTextColor="@color/white"/>
+
+    //Mother
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="2dp"
+        android:id="@+id/main_linerLayout_advSearch"
+        android:background="@color/colorPrimary">
+
+      //one
+        <LinearLayout
+            android:layout_weight="2"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:id="@+id/main_linerLayout_advSearch2"
+            android:background="@color/colorPrimary">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_weight="1"
+                android:id="@+id/search_min_area_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_rounded_regtangle_white"
+                android:gravity="start"
+                android:textColorHint="@color/white">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/search_min_area_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/min_area"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/white"
+                    android:textColorHint="@color/white">
+
+                </androidx.appcompat.widget.AppCompatEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_weight="1"
+                android:id="@+id/search_max_area_edt_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_rounded_regtangle_white"
+                android:gravity="start"
+                android:textColorHint="@color/white">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/search_max_area_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/max_area"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/white"
+                    android:textColorHint="@color/white">
+
+                </androidx.appcompat.widget.AppCompatEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        //tow
+        <LinearLayout
+            android:layout_weight="2"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:background="@color/colorPrimary">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_weight="1"
+                android:id="@+id/search_min_price_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_rounded_regtangle_white"
+                android:gravity="start"
+                android:textColorHint="@color/white">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/search_min_price_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/min_price"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/white"
+                    android:textColorHint="@color/white">
+
+                </androidx.appcompat.widget.AppCompatEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_weight="1"
+                android:id="@+id/search_max_price_edt_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_rounded_regtangle_white"
+                android:gravity="start"
+                android:textColorHint="@color/white">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/search_max_price_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/max_price"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/white"
+                    android:textColorHint="@color/white">
+
+                </androidx.appcompat.widget.AppCompatEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        //three
+        <LinearLayout
+            android:layout_weight="2"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:background="@color/colorPrimary">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_weight="1"
+                android:id="@+id/search_min_bedroom_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/shape_rounded_regtangle_white"
+                android:gravity="start"
+                android:textColorHint="@color/white">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/search_min_bedroom_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/no_of_bedrooms"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/white"
+                    android:textColorHint="@color/white">
+
+                </androidx.appcompat.widget.AppCompatEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_weight="1"
+                android:id="@+id/search_max_bathroom_edt_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_rounded_regtangle_white"
+                android:gravity="start"
+                android:textColorHint="@color/white">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/search_max_bathroom_edt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/no_of_bathrooms"
+                    android:inputType="number"
+                    android:padding="5dp"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="15sp">
+
+                </androidx.appcompat.widget.AppCompatEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        //four
+        <LinearLayout
+            android:layout_weight="2"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:background="@color/colorPrimary">
+
+
+            <Spinner
+                android:background="@drawable/shape_rounded_regtangle_white"
+                android:layout_margin="10dp"
+                android:id="@+id/add_pro_sub_location_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:gravity="start"
+                android:layout_weight="1"
+                android:textColor="@color/white"/>
+            <Spinner
+                android:background="@drawable/shape_rounded_regtangle_white"
+                android:layout_margin="10dp"
+                android:id="@+id/add_pro_sub_type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:gravity="start"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/search_main_btn"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:text="@string/search_properties"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_rounded_regtangle_white"
+            android:clickable="true"
+            />
+
+        </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_listView_id">
+
+    </ListView>
+</LinearLayout>

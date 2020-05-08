@@ -1,0 +1,317 @@
+<resources>
+    <string name="app_name">Nice Home Real Estate</string>
+    <string name="addPro">Add properties</string>
+    <string name="Login">Login</string>
+    <string name="Register">Register</string>
+    <string name="Exit">Exit</string>
+    <string name="open_drawer">Open navigation drawer</string>
+    <string name="close_drawer">Close navigation drawer</string>
+    <string name="menu_search_properties">Search Properties</string>
+    <string name="menu_title_account">Account</string>
+    <string name="menu_my_account">My Account</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="properties_details_toolbar_title">Properties details</string>
+    <string name="login_contact_us">contact us</string>
+    <string name="pro_details_description">Description</string>
+    <string name="contact_us_location_algazira">AL-Masila area Aljazeera\nal-Alarabia street</string>
+    <string name="contact_us_phones">Telephone : +97450077883\nTelephone : +97450077994</string>
+    <string name="contact_us_website" translatable="false">info@nicehome-realestate.com</string>
+    <string name="about_us_welcome_to">Welcome to</string>
+    <string name="about_us_nice_home">NICE HOME</string>
+    <string name="about_us_3">We Always Provide Property To Our Customer</string>
+    <string name="about_us_4">Nice Home To save time and effort Nice Home Real Estate welcomes all requests and you can send any inquiry, whether for sale or Rent and re-rent or management of real estate through our website.\n</string>
+    <string name="about_us_low_cost">Credibility in all transactions</string>
+    <string name="about_us_low_cost_sub">Low cost provides yur best for elit, sed do eiusmod tempe\n</string>
+    <string name="about_us_good_marketing">Punctuality with customers</string>
+    <string name="about_us_good_marketing_سعلا">Low cost provides yur best for elit, sed do eiusmod tempe\n</string>
+    <string name="about_us_easy_to_find">Dealing directly with the owner</string>
+    <string name="about_us_easy_to_find_سعلا">Low cost provides yur best for elit, sed do eiusmod tempe\n</string>
+    <string name="about_us_reliable">Strict confidentiality in order to preserve customer privacy</string>
+    <string name="about_us_reliable_sub">Low cost provides yur best for elit, sed do eiusmod tempe\n</string>
+    <string name="about_us_our_services">OUR SERVICES</string>
+    <string name="about_us_our_serv_sub">Nice Home To save time and effort Nice Home Real Estate welcomes all requests and you can send any inquiry, whether for sale or Rent and re-rent or management of real estate through our website.\n</string>
+    <string name="about_buy_property">To save time and effort</string>
+    <string name="about_us_buy_sub">Nice Home Real Estate welcomes all requests and you can send any inquiry, whether for sale or Rent and re-rent or management of real estate through our website</string>
+    <string name="about_us_sale_property">Best services</string>
+    <string name="about_us_sale_sub">Real estate marketing at the highest level through direct the company\'s database as you can display your properties directly on our site whenever and wherever you are</string>
+    <string name="about_us_rent_property">We are honored to serve you</string>
+    <string name="about_us_rent_property_sub">You can join the list of our customers and to facilitate the search process are only moments and we get back to you with all credibility by personnel with high expertise in real estate</string>
+    <string name="pro_details_1">Nice Home To save time and effort Nice Home Real Estate welcomes all requests and you can send any inquiry, whether for sale or Rent and re-rent or management of real estate through our website\n</string>
+    <string name="condition">Condition</string>
+    <string name="pro_detailsalamarat_49_st">Alamarat 49 St.</string>
+    <string name="details2">Nice Home To save time and effort Nice Home Real Estate welcomes all requests and you can send any inquiry, whether for sale or Rent and re-rent or management of real estate through our website\n</string>
+    <string name="area_450_sqft">Area 450 sqft</string>
+    <string name="bathroom_5">Bathrooms</string>
+    <string name="kitchaen_2">Kitchaen 2</string>
+    <string name="bedroom_5">Bedrooms</string>
+    <string name="garage_2">Garage</string>
+    <string name="amenities">Amenities</string>
+    <string name="bedding">Bedding</string>
+    <string name="internet">Internet</string>
+    <string name="toaster">Toaster</string>
+    <string name="balcony">Balcony</string>
+    <string name="parking">Parking</string>
+    <string name="lift">lift</string>
+    <string name="dishwasher">Dishwasher</string>
+    <string name="cable_tv">Cable TV</string>
+    <string name="air_conditioning">Air Conditioning</string>
+    <string name="_52_350">$52,350</string>
+    <string name="login_1">WANT TO BUY OR RENT HOME ?</string>
+    <string name="login_3">SOLVE YOUR PROBLEMS</string>
+    <string name="login_4">To save time and effort Nice Home Real Estate welcomes all requests and you can send any inquiry, whether for sale or Rent through our website.\n</string>
+    <string name="join_us">join us</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="lost_your_password">Lost your password?</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="i_agree_with_your">I agree with your</string>
+
+
+    <array name="pro_type">
+        <item>Choose type..</item>
+        <item>sale</item>
+        <item>rent</item>
+        <item>required</item>
+    </array>
+
+    <array name="pro_typeDB">
+        <item>...</item>
+        <item>sale</item>
+        <item>rent</item>
+        <item>required</item>
+    </array>
+
+    <array name="pro_status">
+        <item>Choose status..</item>
+        <item>new</item>
+        <item>used</item>
+    </array>
+    <array name="pro_statusDB">
+        <item>...</item>
+        <item>new</item>
+        <item>used</item>
+    </array>
+    <array name="pro_bedrooms">
+        <item>Choose bedrooms..</item>
+        <item>1 Bedrooms</item>
+        <item>2 Bedrooms</item>
+        <item>3 Bedrooms</item>
+        <item>4 Bedrooms</item>
+        <item>5 Bedrooms</item>
+        <item>6 Bedrooms</item>
+    </array>
+    <array name="pro_bathrooms">
+        <item>Choose bathrooms..</item>
+        <item>1 Bathrooms</item>
+        <item>2 Bathrooms</item>
+        <item>3 Bathrooms</item>
+        <item>4 Bathrooms</item>
+        <item>5 Bathrooms</item>
+        <item>6 Bathrooms</item>
+    </array>
+    <array name="pro_garage">
+        <item>Choose garage..</item>
+        <item>1 Garage</item>
+        <item>2 Garage</item>
+        <item>3 Garage</item>
+        <item>4 Garage</item>
+        <item>5 Garage</item>
+        <item>6 Garage</item>
+    </array>
+
+
+    <string name="my_properties">MY PROPERTIES</string>
+    <string name="all">ALL</string>
+    <string name="sale">SALE</string>
+    <string name="rent">RENT</string>
+    <string name="step_1">Step #1</string>
+    <string name="basic_information">Basic Information</string>
+    <string name="property_title">property title</string>
+    <string name="price_usd">price (QAR)</string>
+    <string name="area_quft">Space(Quft)</string>
+    <string name="property_description">property description</string>
+    <string name="step_2">Step #2</string>
+    <string name="pro_d_location">Country</string>
+    <string name="pro_d_sub_location">Area</string>
+    <string name="pro_d_type">Type</string>
+    <string name="pro_d_status">Status</string>
+    <string name="pro_d_no_of_bedrooms">No. Of Bedrooms</string>
+    <string name="pro_d_no_of_bathrooms">No. Of Bathrooms</string>
+    <string name="pro_d_no_of_garage">No. Of Garage</string>
+    <string name="step_3">Step #3</string>
+    <string name="image_gallery">Image Gallery</string>
+    <string name="browse_images">Browse images</string>
+    <string name="video_presentation">Video Presentation (Optional)</string>
+    <string name="add_video">Add Video</string>
+    <string name="property_features">Property Features</string>
+    <string name="add_my_properties">Add my properties</string>
+    <string name="add_properties">Add properties</string>
+
+
+    <string name="some_field_is_empty">Some field is empty</string>
+    <string name="progressDialog_txt">Loading..</string>
+    <string name="login_error_builder_title">Login Error</string>
+    <string name="login_error_builder_ok_btn">OK</string>
+    <string name="login_error_builder_cancel_btn">Cancel</string>
+    <string name="login_error_builder_message">Username or password incorrect</string>
+    <string name="login_error_server_not_found">Server not found</string>
+    <string name="login_error_network_error">Connection error</string>
+    <string name="login_error_no_internet_access">No internet access</string>
+
+    <string name="reg_error_builder_title">Error</string>
+    <string name="reg_error_builder_user_exist">Error! Username or phone or email is used. Try another</string>
+    <string name="reg_builder_title_success">Register Success</string>
+    <string name="reg_error_builder_title_success_msg">Great, The registration done now you can login</string>
+    <string name="reg_password_doesnt_match">Password does not match</string>
+    <string name="main_builder_exit_msg">Do you want Exit?</string>
+
+    <string name="add_pro_builder_choose_another_img">Do you want choose another image?</string>
+    <string name="add_pro_builder_choose_another_img_cancel">Cancel</string>
+
+    <string name="add_pro_builder_unknown_error">Unknown error please try again!</string>
+    <string name="add_pro_builder_add_success">Property added successfully</string>
+
+    <string name="sale_empty_dept">This folder is empty</string>
+    <string name="spaceSign">sqft</string>
+    <string name="reg_error_builder_title_success">null</string>
+    <string name="main_recently">Recently</string>
+
+    <string name="video_link">Paste your video link here (https)</string>
+    <string name="Update_my_pro">Update the properties</string>
+
+    <string name="youtube_player_error">Error in loading video! Try again</string>
+    <string name="video_presentation_title">Video Presentation</string>
+    <string name="play_video">Play Video</string>
+    <string name="video_link_eg">https://youtube.com/videolink</string>
+
+    <string name="section_apartments">Apartments</string>
+    <string name="section_villas">Villas</string>
+    <string name="section_stores" translatable="false">stores</string>
+    <string name="section_work_office">Work Office</string>
+    <string name="section_other_properties">Other Properties</string>
+    <string name="section_commercial_shops" translatable="false">Commercial Shops</string>
+    <string name="section_out_s_qatar">Outside Qatar</string>
+    <string name="section_admin_commercial_villas" translatable="false">administrative and commercial villas</string>
+    <string name="section_b_and_towers">Building and Towers</string>
+
+    <string name="add_pro_section">Section</string>
+
+    <array name="section">
+        <item>Choose the section..</item>
+        <item>Apartments</item>
+        <item>Villas</item>
+        <item>Stores</item>
+        <item>Work Office</item>
+        <item>Commercial Shops</item>
+        <item>Building and Towers</item>
+        <item>administrative and commercial villas</item>
+        <item>Outside Qatar</item>
+        <item>Other Properties</item>
+    </array>
+    <string name="send_mail_extras">Nice Home Real Estate</string>
+    <string name="send_intent_title">Send Mail</string>
+    <string name="send_mail_error">Cannot send the message, try again..</string>
+
+    <string name="no_image_found_for_this_post">No image found for this properties</string>
+    <string name="powered_by">Powered by</string>
+    <string name="isn_technology">ISN Technology</string>
+    <string name="isn_technology_com" translatable="false">www.isn-technology.com</string>
+    <string name="delete_msg">Are you sure you want to delete this proper ?</string>
+    <string name="delete_done">proper deleted</string>
+    <string name="delete_faild">Delete failed ! Try again</string>
+
+    <array name="section_DB">
+        <item>Choose the section..</item>
+        <item>Apartments</item>
+        <item>Villas</item>
+        <item>Stores</item>
+        <item>Work Office</item>
+        <item>Commercial Shops</item>
+        <item>Building and Towers</item>
+        <item>administrative and commercial villas</item>
+        <item>Outside Qatar</item>
+        <item>Other Properties</item>
+    </array>
+
+    <array name="area_array1">
+        <item>Choose the area..</item>
+        <item>array1_1</item>
+        <item>array1_2</item>
+        <item>array1_3</item>
+    </array>
+    <array name="area_array2">
+        <item>Choose the area..</item>
+        <item>array2_1</item>
+        <item>array2_2</item>
+        <item>array2_3</item>
+    </array>
+    <array name="area_array3">
+        <item>Choose the area..</item>
+        <item>array3_1</item>
+        <item>array3_2</item>
+        <item>array3_3</item>
+    </array>
+    <array name="city">
+        <item>Choose the City..</item>
+        <item>Doha</item>
+        <item>Al-Rayan</item>
+        <item>Lusail</item>
+        <item>Al-shmal</item>
+        <item>Alwakra</item>
+        <item>Alkhor</item>
+        <item>Dukhan</item>
+        <item>Mesaieed</item>
+        <item>Al Shahania</item>
+    </array>
+
+
+    <string name="logout_msg_builder">Login data will be deleted?</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout_msg">Logged out</string>
+    <string name="logout">Logout</string>
+    <string name="city">City</string>
+    <string name="area">Area</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="_name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="qar">(QAR)</string>
+    <string name="required">REQUIRED</string>
+    <string name="must_reg">You must register first !</string>
+    <string name="dail_no">Call</string>
+    <string name="contact_us_website2" translatable="false">www.nicehome-realestate.com</string>
+    <string name="_97450077883" translatable="false">+97450077883</string>
+    <string name="_97450077994" translatable="false">+97450077994</string>
+    <string name="_97450077884" translatable="false">+97450077884</string>
+    <string name="_97444665077" translatable="false">+97444665077</string>
+    <string name="_97444665066" translatable="false">+97444665066</string>
+    <string name="_97450077993" translatable="false">+97450077993</string>
+    <string name="_97450077992" translatable="false">+97450077992</string>
+    <string name="www_nicehome_realestate_com" translatable="false">www.nicehome-realestate.com</string>
+    <string name="info_nicehome_realestate_com" translatable="false">info@nicehome-realestate.com</string>
+    <string name="my_added_properties">My added properties</string>
+    <string name="snakbar_retry">Connection error</string>
+    <string name="snakbar_event">Retry</string>
+    <string name="this_section_is_empty">This section is empty</string>
+    <string name="login_success">Login success</string>
+    <string name="you_have_no_added">You dont have added properties</string>
+    <string name="serach_go">Go</string>
+    <string name="no_result_found">No result found</string>
+    <string name="write_to_search">Write some thing to search for</string>
+    <string name="min_area">Min area</string>
+    <string name="max_area">Max area</string>
+    <string name="min_price">Min price</string>
+    <string name="max_price">Max price</string>
+    <string name="no_of_bedrooms">No. of Bedrooms</string>
+    <string name="no_of_bathrooms">No. of Bathrooms</string>
+    <string name="search_properties">Search Properties</string>
+    <string name="choose_location">Choose location..</string>
+    <string name="mark_nice_home">Mark Nice Home Real Estate optimal choice for several reasons, are not the only ones, but we hope to be the best\n</string>
+    <string name="reliable">Strict confidentiality in order to preserve customer privacy\n</string>
+    <string name="punctuality">Punctuality with customers\n</string>
+
+</resources>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">نايس هوم العقارية</string>
+    <string name="menu_contact_us">تواصل معنا</string>
+    <string name="contact_us_phones">هاتف:+97450077883\nهاتف:+97450077994</string>
+    <string name="contact_us_location_algazira">منطقة المسيلة شارع الجزيرة العربية</string>
+    <string name="Exit">خروج</string>
+    <string name="Login">تسجيل الدخول</string>
+    <string name="Register">انشاء الحساب</string>
+    <string name="addPro">اضافة عقار</string>
+    <string name="close_drawer">اغلاق الخاصية</string>
+    <string name="login_contact_us">تواصل معنا</string>
+    <string name="menu_about_us">من نحن</string>
+    <string name="menu_my_account">حسابي</string>
+    <string name="menu_search_properties">ابحث عن عقار</string>
+    <string name="menu_title_account">الحساب</string>
+    <string name="open_drawer">افتح الخاصية</string>
+    <string name="pro_details_description">الوصف</string>
+    <string name="properties_details_toolbar_title">تفاصيل العقار</string>
+    <string name="about_us_easy_to_find">التعامل مع المالك مباشرة</string>
+    <string name="about_us_easy_to_find_سعلا">تكلفة منخفضة توفر أفضل\n</string>
+    <string name="about_us_good_marketing_سعلا">تكلفة منخفضة توفر أفضل\n</string>
+    <string name="about_us_good_marketing">الالتزام بالمواعيد مع العملاء</string>
+    <string name="about_us_low_cost">المصداقية في جميع المعاملات</string>
+    <string name="about_us_low_cost_sub">تكلفة منخفضة توفر أفضل\n</string>
+    <string name="about_us_reliable_sub">تكلفة منخفضة توفر أفضل\n</string>
+    <string name="about_us_reliable">السرية التامة حفاظا على خصوصية العملاء</string>
+    <string name="about_us_welcome_to">مرحبا بك في</string>
+    <string name="about_us_nice_home">نايس هوم</string>
+    <string name="about_us_3">نحن دائما نوفر الممتلكات لعملائنا</string>
+    <string name="about_us_4">لتوفير الوقت والجهد ، ترحب  بجميع الطلبات ويمكنك إرسال أي استفسار ، سواء للبيع أو الإيجار وإعادة التأجير\n</string>
+    <string name="pro_details_1">تفاصيل العقار تفاصيل العقار تفاصيل العقار تفاصيل العقار تفاصيل العقار تفاصيل العقار تفاصيل العقار تفاصيل العقار تفاصيل العقار تفاصيل العقار\n</string>
+    <string name="condition">الشروط</string>
+    <string name="pro_detailsalamarat_49_st">العمارات شارع 49</string>
+    <string name="about_buy_property">لتوفير الوقت والجهد</string>
+    <string name="about_us_our_serv_sub">نايس هوم لتوفير الوقت والجهد يرحب بجميع الطلبات ويمكنك إرسال أي استفسار ، سواء للبيع أو الإيجار وإعادة الإيجار أو إدارة العقارات من خلال موقعنا الإلكتروني وتطبيق نايس هوم</string>
+    <string name="about_us_our_services">خدماتنا</string>
+    <string name="about_us_rent_property"> نتشرف بخدمتكم</string>
+    <string name="about_us_sale_property"> افضل الخدمات</string>
+    <string name="air_conditioning">تكيف</string>
+    <string name="amenities">وسائل الراحة</string>
+    <string name="area_450_sqft">مساحة 450 قدم مربع</string>
+    <string name="balcony">شرفة</string>
+    <string name="bathroom_5">حمامات</string>
+    <string name="bedding">الفراش</string>
+    <string name="bedroom_5">غرف نوم </string>
+    <string name="cable_tv">الكيبل التلفزيوني</string>
+    <string name="details2">نايس هوم لتوفير الوقت والجهد يرحب بجميع الطلبات ويمكنك إرسال أي استفسار ، سواء للبيع أو الإيجار وإعادة الإيجار أو إدارة العقارات من خلال موقعنا الإلكتروني وتطبيق نايس هوم</string>
+    <string name="dishwasher">غسالة أطباق</string>
+    <string name="garage_2">المرآب </string>
+    <string name="internet">الانترنت</string>
+    <string name="kitchaen_2">المطابخ 2</string>
+    <string name="lift">مصعد</string>
+    <string name="parking">موقف سيارات</string>
+    <string name="toaster">محمصة خبز كهربائية</string>
+    <string name="_52_350">25000 دولار</string>
+    <string name="join_us">انضم الينا</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_1">هل تريد شراء أو استئجار منزل؟</string>
+    <string name="login_3">تقدم لك الحلول</string>
+    <string name="login_4">نايس هوم لتوفير الوقت والجهد يرحب بجميع الطلبات ويمكنك إرسال أي استفسار ، سواء للبيع أو الإيجار وإعادة الإيجار أو إدارة العقارات من خلال موقعنا الإلكتروني وتطبيق نايس هوم</string>
+    <string name="lost_your_password">نسيت كلمة السر ؟</string>
+    <string name="password">كلمة السر</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="confirm_password">تأكيد كلمة السر</string>
+    <string name="create_an_account">انشاء حساب</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="i_agree_with_your">أوافق على الشروط</string>
+    <string name="main_recently">المضافة حديثا</string>
+    <string name="all">الكل</string>
+    <string name="rent">للايجار</string>
+    <string name="sale">للبيع</string>
+    <string name="pro_d_location">البلد</string>
+    <string name="add_my_properties">اضافة العقار</string>
+    <string name="add_video">اضف فيديو</string>
+    <string name="area_quft">المساحة بالمتر المرع</string>
+    <string name="basic_information">المعلومات الأساسية</string>
+    <string name="browse_images">اضف صورة</string>
+    <string name="image_gallery">معرض الصور</string>
+    <string name="price_usd">السعر بالريال القطري</string>
+    <string name="pro_d_no_of_bathrooms">عدد الحمامات</string>
+    <string name="pro_d_no_of_bedrooms">عدد غرف النوم</string>
+    <string name="pro_d_no_of_garage">عدد الكراج</string>
+    <string name="pro_d_status">الحالة</string>
+    <string name="pro_d_sub_location">المنطقة</string>
+    <string name="pro_d_type">النوع</string>
+    <string name="property_description">وصف العقار</string>
+    <string name="property_features">مميزات العقار</string>
+    <string name="property_title">عنوان العقار</string>
+    <string name="step_1">الخطوة الاولى</string>
+    <string name="step_2">الخطوة الثانية</string>
+    <string name="step_3">الخطوة الثالثة</string>
+    <string name="video_presentation">فيديو العرض(اختياري)</string>
+    <string name="add_properties">اضافة عقار</string>
+
+    <string name="some_field_is_empty">بعض الحقول فارغة</string>
+    <string name="login_error_builder_title">تسجيل خاطئ</string>
+    <string name="login_error_builder_message">اسم المستخدم او كلمة السر غير صحيحة</string>
+    <string name="login_error_server_not_found">تعذر الوصول للخادم</string>
+    <string name="login_error_network_error">خطأ بالأنترنت</string>
+    <string name="login_error_no_internet_access">لايوجد اتصال بالشبكة</string>
+    <string name="login_error_builder_ok_btn">موافق</string>
+    <string name="progressDialog_txt">جاري المعالجة..</string>
+    <string name="reg_error_builder_title">خطأ</string>
+    <string name="reg_error_builder_title_success">تم التسجيل</string>
+    <string name="reg_error_builder_title_success_msg">تهانينا، تمت عملية التسجيل بنجاح الان يمكن تسجيل الدخول</string>
+    <string name="reg_error_builder_user_exist">عفوا! اسم المستخدم او الهاتف او البريد الالكتروني تم استخدامها. استخدم بيانات اخرى</string>
+    <string name="reg_builder_title_success">تم التسجيل</string>
+    <string name="reg_password_doesnt_match">كلمة المرور غير متطابقة</string>
+    <string name="login_error_builder_cancel_btn">رجوع</string>
+    <string name="main_builder_exit_msg">سوف يتم اغلاق التطبيق ؟</string>
+    <string name="add_pro_builder_choose_another_img">هل تريد اختيار صورة اخرى؟</string>
+    <string name="add_pro_builder_choose_another_img_cancel">رجوع</string>
+    <string name="add_pro_builder_unknown_error">خطأ غير متوقع حاول مرة اخرى!</string>
+    <string name="add_pro_builder_add_success">تمت اضافة العقار بنجاح</string>
+    <string name="sale_empty_dept">لايوجد عقار في هذا القسم</string>
+    <string name="spaceSign">متر مربع</string>
+    <string name="my_properties">عقاراتي</string>
+
+
+
+    <array name="pro_type">
+        <item>اختر النوع..</item>
+        <item>بيع</item>
+        <item>ايجار</item>
+        <item>مطلوب</item>
+    </array>
+    <array name="pro_status">
+        <item>اختر الحالة..</item>
+        <item>جديد</item>
+        <item>مستعمل</item>
+
+
+    </array>
+    <array name="pro_bedrooms">
+        <item>اختر غرف النوم..</item>
+        <item>1 غرف نوم</item>
+        <item>2 غرف نوم</item>
+        <item>غرف نوم</item>
+        <item>4 غرف نوم</item>
+        <item>5 غرف نوم</item>
+        <item>6 غرف نوم</item>
+    </array>
+    <array name="pro_bathrooms">
+        <item>اختر الحمامات..</item>
+        <item>1 حمامات</item>
+        <item>2 حمامات</item>
+        <item>3 حمامات</item>
+        <item>4 حمامات</item>
+        <item>5 حمامات</item>
+        <item>6 حمامات</item>
+    </array>
+    <array name="pro_garage">
+        <item>اختر الكراج..</item>
+        <item>1 مرآب</item>
+        <item>2 مرآب</item>
+        <item>3 مرآب</item>
+        <item>4 مرآب</item>
+        <item>5 مرآب</item>
+        <item>6 مرآب</item>
+    </array>
+    <string name="video_link">انسخ رابط الفيديو الخاص بالعقار</string>
+    <string name="Update_my_pro">تعديل العقار</string>
+    <string name="youtube_player_error">حدث خطأ في تحميل الفيديو! حاول مره أخرى</string>
+    <string name="video_presentation_title">فيديو العرض</string>
+    <string name="play_video">تشغيل الفيديو</string>
+    <string name="video_link_eg">https://youtube.com/videolink</string>
+
+
+    <array name="section">
+        <item>اختر القسم..</item>
+        <item>شقق سكنية</item>
+        <item>فلل</item>
+        <item>مخازن</item>
+        <item>مكتب العمل</item>
+        <item>محلات تجارية</item>
+        <item>عمارة او برج</item>
+        <item>فيلات إدارية وتجارية</item>
+        <item>خارج قطر</item>
+        <item>عقارات اخرى</item>
+    </array>
+    <string name="logout_msg_builder">سوف يتم مسح بيانات الدخول! متابعة؟</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">رجوع</string>
+    <string name="logout_msg">تم تسجيل الخروج</string>
+    <string name="logout">تسجيل خروج</string>
+    <string name="area">المنطقة</string>
+    <string name="city">المدينة</string>
+    <string name="_name">الاسم</string>
+    <string name="phone">الهاتف</string>
+    <string name="contact_details">بيانات الاتصال</string>
+    <string name="add_pro_section">القسم</string>
+    <string name="section_apartments">الشقق</string>
+    <string name="section_b_and_towers">ابرلج ومباني</string>
+    <string name="section_other_properties">عقارات اخرى</string>
+    <string name="section_out_s_qatar">خارج قطر</string>
+
+    <string name="section_villas">فيلا</string>
+    <string name="section_work_office">مكتب</string>
+    <string name="qar">ريال قطري</string>
+    <string name="required">مطلوب</string>
+
+    <string name="powered_by">تم التطوير بواسطة</string>
+    <string name="isn_technology">ISN تكنولوجي</string>
+
+    <array name="city">
+        <item>اختر المدينة..</item>
+        <item>الدوحه</item>
+        <item>الريان</item>
+        <item>الوسيل</item>
+        <item>الشمال</item>
+        <item>الوكرة</item>
+        <item>الخور</item>
+        <item>دخان</item>
+        <item>مسيعيد</item>
+        <item>الشحانية</item>
+    </array>
+    <string name="must_reg">قم بالتسجيل اولا لتتمكن من اضافة العقارات</string>
+    <string name="send_mail_error">خطأ! الرجاء المحاولة مرة اخرى</string>
+    <string name="send_mail_extras">نايس هوم العقارية</string>
+    <string name="dail_no">اتصال بـ </string>
+    <string name="no_image_found_for_this_post">لايوجد صور لهذا العقار</string>
+    <string name="send_intent_title">ارسال بريد الكتروني</string>
+    <string name="my_added_properties">عقاراتي</string>
+    <string name="snakbar_retry">خطأ بالاتصال</string>
+    <string name="snakbar_event">اعد المحاولة</string>
+    <string name="this_section_is_empty">هذا القسم فارغ</string>
+    <string name="login_success">عملية تسجيل دخول ناجحة</string>
+    <string name="delete_done">تم حذف العقار</string>
+    <string name="delete_faild">تعذر الحذف ! حاول مرة اخرى</string>
+    <string name="delete_msg">هل انت متأكد من انك تريد حذف العقار ؟</string>
+    <string name="you_have_no_added">لم تقم باضافة اي عقار حتى الان</string>
+    <string name="serach_go">ذهاب</string>
+    <string name="no_result_found">لاتوجد نتائج</string>
+    <string name="write_to_search">اكتب شيئا للبحث عنه</string>
+    <string name="max_area">اكبر مساحة</string>
+    <string name="max_price">اكبر سعر</string>
+    <string name="min_area">اقل مساحة</string>
+    <string name="min_price">اقل سعر</string>
+    <string name="no_of_bathrooms">عدد الحمامات</string>
+    <string name="no_of_bedrooms">عدد الغرف</string>
+    <string name="search_properties">بحث العقار</string>
+    <string name="choose_location">اختر الموقع..</string>
+    <string name="mark_nice_home">اجعل نايس هوم خيارك الامثل لعدة اسباب لسنا الوحيدون ولكننا نأمل ان نكون الافضل </string>
+    <string name="reliable">السرية التامة حفاظا على خصوصية العملاء</string>
+    <string name="punctuality">التعامل مع المالك مباشرة\n</string>
+    <string name="about_us_buy_sub">نايس هوم العقارية ترحب بجميع طلباتكم ويمكنك ارسال اي استفسار سواء للبيع او الايجار واعادة الاستئجار اوادارة العقارات وذلك عن طريق موعنا على الانترنت</string>
+    <string name="about_us_sale_sub">التسويق العقاري على اعلى مستوى من خلال قاعدة بيانات الشركة المباشرة كما يمكنكم عرض عقاراتكم على موقعنا متى واينما كنتم</string>
+    <string name="about_us_rent_property_sub">يمكنكم الانضمام الى قائمة عملائنا وذلك لتسهيل عملية البحث ماهي الا لحظات ونقوم بالرد على طلبكم بكل مصداقية من خلال موظفون يتمتعون بخبرات عالية في هذا المجال</string>
+
+</resources>

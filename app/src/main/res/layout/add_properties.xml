@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkwhite"
+    android:id="@+id/add_pro_relative">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/add_properties_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/add_properties"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/add_pro_scroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/basic_information"
+                        android:textColor="@color/primary_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="@string/add_pro_section"
+                        android:textColor="@color/secondary_text"
+                        android:textSize="15sp" />
+                    <Spinner
+                        android:id="@+id/add_pro_section_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:background="@drawable/shape_rounded_regtangle_black"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/add_pro_title_edt_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/shape_rounded_regtangle_black"
+                        android:gravity="start">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/add_pro_title_edt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="@string/property_title"
+                            android:inputType="text"
+                            android:padding="5dp"
+                            android:textColor="@color/primary_text"
+                            android:textColorHighlight="@color/colorPrimary"
+                            android:textColorHint="@color/colorAccent"
+                            android:textSize="15sp"
+                            >
+
+                        </androidx.appcompat.widget.AppCompatEditText>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/add_pro_price_edt_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/shape_rounded_regtangle_black"
+                        android:gravity="start">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/add_pro_price_edt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="@string/price_usd"
+                            android:inputType="number"
+                            android:padding="5dp"
+                            android:textColor="@color/primary_text"
+                            android:textColorHighlight="@color/colorPrimary"
+                            android:textColorHint="@color/colorAccent"
+                            android:textSize="15sp">
+
+                        </androidx.appcompat.widget.AppCompatEditText>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/add_pro_area_edt_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/shape_rounded_regtangle_black"
+                        android:gravity="start">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/add_pro_area_edt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:hint="@string/area_quft"
+                            android:inputType="number"
+                            android:padding="5dp"
+                            android:textColor="@color/primary_text"
+                            android:textColorHighlight="@color/colorPrimary"
+                            android:textColorHint="@color/colorAccent"
+                            android:textSize="15sp">
+
+                        </androidx.appcompat.widget.AppCompatEditText>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/add_pro_desciption_edt_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/shape_rounded_regtangle_black"
+                        android:gravity="start">
+
+                        <androidx.appcompat.widget.AppCompatEditText
+                            android:id="@+id/add_pro_description_edt"
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@android:color/transparent"
+                            android:gravity="top"
+                            android:hint="@string/property_description"
+                            android:inputType="text|textMultiLine"
+                            android:padding="5dp"
+                            android:textColor="@color/primary_text"
+                            android:textColorHighlight="@color/colorPrimary"
+                            android:textColorHint="@color/colorAccent"
+                            android:textSize="15sp">
+
+                        </androidx.appcompat.widget.AppCompatEditText>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/basic_information"
+                        android:textColor="@color/primary_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    ////////
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="@string/city"
+                        android:textColor="@color/secondary_text"
+                        android:textSize="15sp" />
+                    <Spinner
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/add_pro_city_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="start"
+                        android:background="@drawable/shape_rounded_regtangle_black"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="@string/area"
+                        android:textColor="@color/secondary_text"
+                        android:textSize="15sp" />
+                    <Spinner
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:id="@+id/add_pro_area_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:gravity="start"
+                        android:background="@drawable/shape_rounded_regtangle_black"/>
+
+
+                 <!--
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/pro_d_location"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="15sp" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/add_pro_country_edt_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape_rounded_regtangle_black"
+                                android:gravity="start">
+
+                            <android.support.v7.widget.AppCompatEditText
+                                android:id="@+id/add_pro_country_edt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:hint="@string/pro_d_location"
+                                android:inputType="text"
+                                android:padding="5dp"
+                                android:textColor="@color/primary_text"
+                                android:textColorHighlight="@color/colorPrimary"
+                                android:textColorHint="@color/colorAccent"
+                                android:textSize="15sp"
+                                >
+                            </android.support.v7.widget.AppCompatEditText>
+                            </android.support.design.widget.TextInputLayout>
+                        </TableRow>
+
+                        <TableRow android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/pro_d_sub_location"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="15sp" />
+
+                            <android.support.design.widget.TextInputLayout
+                                android:id="@+id/add_pro_sub_country_edt_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/shape_rounded_regtangle_black"
+                                android:gravity="start">
+
+                                <android.support.v7.widget.AppCompatEditText
+                                    android:id="@+id/add_pro_sub_country_edt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@android:color/transparent"
+                                    android:hint="@string/pro_d_sub_location"
+                                    android:inputType="text"
+                                    android:padding="5dp"
+                                    android:textColor="@color/primary_text"
+                                    android:textColorHighlight="@color/colorPrimary"
+                                    android:textColorHint="@color/colorAccent"
+                                    android:textSize="15sp"
+                                    >
+                                </android.support.v7.widget.AppCompatEditText>
+                            </android.support.design.widget.TextInputLayout>
+                        </TableRow>
+-->
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:gravity="start">
+
+
+
+
+                        <TableRow android:gravity="center_vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/pro_d_type"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="15sp" />
+
+                            <Spinner
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:id="@+id/add_pro_sub_type_spinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:gravity="start" />
+                        </TableRow>
+                        <TableRow android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/pro_d_status"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="15sp" />
+
+                            <Spinner
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:id="@+id/add_pro_status_spinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:gravity="start" />
+                        </TableRow>
+
+                        <TableRow android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/pro_d_no_of_bedrooms"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="15sp" />
+
+                            <Spinner
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:id="@+id/add_pro_sub_bedrooms_spinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:gravity="start" />
+                        </TableRow>
+
+                        <TableRow android:gravity="center_vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/pro_d_no_of_bathrooms"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="15sp" />
+
+                            <Spinner
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:id="@+id/add_pro_sub_bathrooms_spinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:gravity="start" />
+                        </TableRow>
+                        <TableRow android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/pro_d_no_of_garage"
+                                android:textColor="@color/secondary_text"
+                                android:textSize="15sp" />
+
+                            <Spinner
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:id="@+id/add_pro_sub_garages_spinner"
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:gravity="start" />
+                        </TableRow>
+                    </TableLayout>
+                    ////////
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            //////////////
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/step_3"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/image_gallery"
+                        android:textColor="@color/primary_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_rounded_regtangle_black"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:layout_marginTop="5dp">
+                    <ImageView
+                        android:id="@+id/add_properties_img_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="gone"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:id="@+id/add_properties_img_view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="gone"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:id="@+id/add_properties_img_view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="gone"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:id="@+id/add_properties_img_view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="gone"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:id="@+id/add_properties_img_view5"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:visibility="gone"
+                        android:scaleType="centerCrop"/>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:id="@+id/add_pro_img_btn"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"
+                        android:text="@string/browse_images"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shape_button_style_join_us"
+                        android:paddingEnd="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:layout_margin="20dp"
+                        android:drawableStart="@drawable/shape_add_image"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/shape_add_image" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:id="@+id/add_pro_img_btn2"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"
+                        android:text="@string/browse_images"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shape_button_style_join_us"
+                        android:paddingEnd="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:layout_margin="20dp"
+                        android:drawableStart="@drawable/shape_add_image"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/shape_add_image"
+                        android:visibility="gone"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:id="@+id/add_pro_img_btn3"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"
+                        android:text="@string/browse_images"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shape_button_style_join_us"
+                        android:paddingEnd="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:layout_margin="20dp"
+                        android:drawableStart="@drawable/shape_add_image"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/shape_add_image"
+                        android:visibility="gone"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:id="@+id/add_pro_img_btn4"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"
+                        android:text="@string/browse_images"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shape_button_style_join_us"
+                        android:paddingEnd="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:layout_margin="20dp"
+                        android:drawableStart="@drawable/shape_add_image"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/shape_add_image"
+                        android:visibility="gone"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:id="@+id/add_pro_img_btn5"
+                        android:gravity="center"
+                        android:textSize="14sp"
+                        android:layout_gravity="center"
+                        android:text="@string/browse_images"
+                        android:textColor="@color/white"
+                        android:background="@drawable/shape_button_style_join_us"
+                        android:paddingEnd="20dp"
+                        android:paddingStart="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:layout_margin="20dp"
+                        android:drawableStart="@drawable/shape_add_image"
+                        android:drawablePadding="5dp"
+                        android:drawableLeft="@drawable/shape_add_image"
+                        android:visibility="gone"/>
+
+
+
+</LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            /////
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical"
+                    android:paddingBottom="5dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/video_presentation"
+                        android:textColor="@color/primary_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape_rounded_regtangle_black"
+                        android:focusableInTouchMode="true"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp">
+                        <!--
+                                                <android.support.v7.widget.AppCompatButton
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_width="200dp"
+                                                    android:id="@+id/sub_pro_vid_btn"
+                                                    android:gravity="center"
+                                                    android:textSize="14sp"
+                                                    android:layout_gravity="center"
+                                                    android:text="@string/add_video"
+                                                    android:textColor="@color/white"
+                                                    android:background="@drawable/shape_button_style_join_us"
+                                                    android:paddingEnd="20dp"
+                                                    android:paddingStart="20dp"
+                                                    android:paddingRight="20dp"
+                                                    android:paddingLeft="20dp"
+                                                    android:layout_margin="20dp"
+                                                    android:drawableStart="@drawable/shape_add_video"
+                                                    android:drawablePadding="5dp"
+                                                    android:drawableLeft="@drawable/shape_add_video" />-->
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/video_link"
+                            android:textColor="@color/primary_text"
+                            android:textSize="15sp" />
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/add_pro_video_edt_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/shape_rounded_regtangle_black"
+                            android:gravity="start">
+
+                            <androidx.appcompat.widget.AppCompatEditText
+                                android:id="@+id/add_pro_video_edt"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:hint="@string/video_link_eg"
+                                android:inputType="text"
+                                android:padding="5dp"
+                                android:textColor="@color/primary_text"
+                                android:textColorHighlight="@color/colorPrimary"
+                                android:textColorHint="@color/colorAccent"
+                                android:textSize="15sp"
+                                >
+
+                            </androidx.appcompat.widget.AppCompatEditText>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+///////////////
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/property_features"
+                        android:textColor="@color/primary_text"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    ////spinner
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="start"
+                        android:orientation="horizontal">
+
+                        <TableRow>
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_air_con"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/air_conditioning"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_parking_pool"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/parking"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_bedding"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/bedding"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_lift"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lift"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_balcony"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/balcony"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_dishwasher"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/dishwasher"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_cable"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/cable_tv"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_toaster"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/toaster"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+                        </TableRow>
+
+                        <TableRow>
+
+                            <androidx.appcompat.widget.AppCompatCheckBox
+                                android:id="@+id/add_pro_internet"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/internet"
+                                android:textColor="@color/primary_text"
+                                android:textSize="13sp" />
+
+
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+////////////////
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/add_pro_btn"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_gravity="center"
+                android:text="@string/add_my_properties"
+                android:textColor="@color/white"
+                android:background="@drawable/shape_button_style_join_us"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

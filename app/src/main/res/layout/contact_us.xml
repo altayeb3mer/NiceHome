@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fcfcfc"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/bar_lay"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:background="#440400"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            app:layout_scrollFlags="exitUntilCollapsed|scroll"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="10dp"
+            app:title="@string/menu_contact_us"
+            app:expandedTitleMarginEnd="20dp"
+            android:background="@drawable/contact">
+
+            <androidx.appcompat.widget.Toolbar
+                android:title="@string/menu_contact_us"
+                android:id="@+id/contact_us_toolbar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:theme="?attr/actionBarStyle"
+                app:navigationIcon="@drawable/ic_toolbar_on_back_press"
+                />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            tools:context=".Login"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <!-- android:focusable="true"
+        android:focusableInTouchMode="true"-->
+
+
+            <ScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        >
+                        <TextView
+                            android:layout_margin="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="@string/contact_us_location_algazira"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:textColor="@color/primary_text"
+                            android:drawableStart="@drawable/ic_location_al_doha_gatar"
+                            android:drawableLeft="@drawable/ic_location_al_doha_gatar"
+                            android:id="@+id/nicehome_location"/>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+                            <TextView
+                                android:textDirection="ltr"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/_97450077883"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_contact_details_call"
+                                android:drawableLeft="@drawable/ic_contact_details_call"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/phone1"/>
+                            <TextView
+                                android:textDirection="ltr"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/_97450077994"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_contact_details_call2"
+                                android:drawableLeft="@drawable/ic_contact_details_call2"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/phone2"/>
+                            <TextView
+                                android:textDirection="ltr"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/_97450077884"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_contact_details_call2"
+                                android:drawableLeft="@drawable/ic_contact_details_call2"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/phone3"/>
+                            <TextView
+                                android:textDirection="ltr"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/_97450077992"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_contact_details_call2"
+                                android:drawableLeft="@drawable/ic_contact_details_call2"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/phone4"/>
+                            <TextView
+                                android:textDirection="ltr"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/_97450077993"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_contact_details_call2"
+                                android:drawableLeft="@drawable/ic_contact_details_call2"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/phone5"/>
+                            <TextView
+                                android:textDirection="ltr"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/_97444665066"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_contact_details_call2"
+                                android:drawableLeft="@drawable/ic_contact_details_call2"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/phone6"/>
+                            <TextView
+                                android:textDirection="ltr"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/_97444665077"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_contact_details_call2"
+                                android:drawableLeft="@drawable/ic_contact_details_call2"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/phone7"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="5dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+                            <TextView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/info_nicehome_realestate_com"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_mail_"
+                                android:drawableLeft="@drawable/ic_mail_"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/info_email"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="@string/www_nicehome_realestate_com"
+                                android:textSize="15sp"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:textColor="@color/primary_text"
+                                android:drawableStart="@drawable/ic_website"
+                                android:drawableLeft="@drawable/ic_website"
+                                android:paddingTop="2dp"
+                                android:paddingBottom="2dp"
+                                android:id="@+id/website"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
